@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import com.blue.mvpdemol.adapter.UsersAdapter;
 import com.blue.mvpdemol.model.User;
@@ -50,6 +51,8 @@ public class MainActivity extends MvpLceActivity<SwipeRefreshLayout, List<User>,
             startActivity(intent);
         }
 
+
+        Log.w("vode","this is added code");
     }
 
     @NonNull
